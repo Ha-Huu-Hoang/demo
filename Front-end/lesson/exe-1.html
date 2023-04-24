@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=thông tin sinh viên, initial-scale=1.0"
+    />
+    <title>Thông tin sinh viên</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Thông tin sinh viên</legend>
+        <label for="usename">Tên người dùng:</label>
+        <input
+          type="text"
+          name="usename"
+          id="usename"
+          placeholder="tên người dùng "
+          required
+        /><br /><br />
+        <label for="age">Tuổi:</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Tuổi"
+          min="0"
+          required
+        /><br /><br />
+        <label for="birthday">Sinh nhật:</label>
+        <input type="date" id="birthday" name="birthday" required /><br />
+        <label for="interest">Ngôn ngữ lập trình ưa thích:</label>
+        <input
+          type="text"
+          id="interest"
+          name="interest"
+          placeholder="sở thích"
+          required
+        /><br /><br />
+        <label for="time">Thời gian muốn học:</label>
+        <input list="browsers">
+  <datalist id="browsers">
+    <option value="3 tháng">
+    <option value="4 tháng">
+    <option value="5 tháng">
+    <option value="6 tháng">
+    <option value="7 tháng">
+  </datalist><br /><br />
+        <label for="Address">Địa chỉ:</label>
+        <input
+          type="text"
+          id="Address"
+          name="Address"
+          placeholder="địa chỉ"
+          required
+        /><br /><br />
+        <label for="">Giới tính:</label>
+        <input type="radio" id="nam" name="fav_language"  />
+        <label for="nam">Nam</label>
+        <input type="radio" id="nu" name="fav_language" />
+        <label for="nu">Nữ</label>
+        <input
+          type="radio"
+          id="khac"
+          name="fav_language"
+         
+        />
+        <label for="khac">Giới tính thứ 3</label><br /><br />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

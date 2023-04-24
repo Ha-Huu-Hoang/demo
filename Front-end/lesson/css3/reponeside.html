@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Media responsive</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* @media only screen and (max-width: 768px) {
+        .right
+         {
+          display: none;
+        width: 100%;
+        }
+      } */
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .left,
+      .right {
+        height: 400px;
+      }
+      .left {
+        background: blue;
+        float: left;
+        width: 60%;
+      }
+      .right {
+        background: red;
+        float: right;
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">LEFT</div>
+      <div class="right">RIGHT</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.15;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+p,h1,h2{
+    margin: 0;
+}
+#wrapper{
+   
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.justify-content{
+    justify-content: space-around;
+}
+/*======your-logo=====*/
+#wrapper #login-1 p.your-logo{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+  
+}
+/*======item-1=====*/
+
+#item-1 .content .content-1,.content-2{
+   
+}
+#item-1 .content .content-1 p.ct-1{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+}
+#item-1 .content .content-1 p.ct-2{
+    font-weight: 500;
+font-size: 35px;
+line-height: 52px;
+
+}
+#item-1 .content .content-2{
+    margin-top: 53px;
+}
+#item-1 .content .content-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content-2 p.hai span a{
+    color: #4D47C3;
+    text-decoration: none;
+}
+/*======item-2=====*/
+#wrapper #login-1 #item-2{
+    
+   
+    width: 369px;
+
+
+}
+ #item-2 p.head{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+.from form#sigin input#name{
+    margin-top: 28px;
+   
+}
+.from form#sigin input#password{
+    margin-top: 38px;
+   
+}
+.from form#sigin input#name,input#password{
+    padding: 20px 155px 19px 26px;
+    background: #F0EFFF;
+    border-radius: 8px;
+    color: #A7A3FF;
+}
+.from form#sigin input#name::placeholder{
+    color: #A7A3FF;
+    font-weight: 400;
+    font-size: 15px;
+}
+.from form#sigin input#password::placeholder{
+    color: #A7A3FF;
+    font-weight: 400;
+    font-size: 15px;
+}
+.from form#sigin input#name,input#password{
+    display: block;
+    width: 369px;
+    border: none;
+    outline: none;
+    
+}
+.from form#sigin p.forgor a{
+ color: #B0B0B0;
+ font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+display: block;
+margin-top: 17px;
+text-align: right;
+text-decoration: none;
+}
+.from form#sigin button{
+    margin-top: 46px;
+    width: 369px;
+    height: 59px;
+    background: #4D47C3;
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+box-shadow: 0px 4px 61px rgba(77, 71, 195, 0.4);
+}
+.from p.continue{
+    margin-top: 54px;
+    text-align: center;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+
+}
+ul{
+list-style: none;
+   padding: 0;
+}
+.icon ul#item-icon{
+    display: flex;
+    justify-content: center;
+}
+.icon ul#item-icon li a img{
+    width: 36.28px;
+}
+.icon ul#item-icon li{
+    margin-left: 26px;
+}
+.icon ul#item-icon li:first-child{
+    margin-left: 0;
+} 
+
+.anh{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    top: -20px;
+    left: 360px;
+}
+.logo{
+   position: absolute;
+}

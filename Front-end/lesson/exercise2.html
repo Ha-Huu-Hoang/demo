@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      th,
+      td,
+      table {
+        border: 1px solid black;
+      }
+      table {
+        width: 400px;
+        height: 200px;
+        /* border-spacing: 40px; */
+      }
+      td {
+        text-align: center;
+      }
+      tr:nth-child(odd){
+        background: violet;
+      }
+      tr:nth-child(even){
+        background: rgb(241, 244, 74);
+      }
+    </style>
+    <table>
+      <caption>
+        Thong tin sinh vien
+      </caption>
+      <colgroup>
+        <!-- <col span="2" style="background: red;" /> -->
+      </colgroup>
+      
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Adress</th>
+        </tr>
+     
+     
+        <tr>
+          <td>Nguyen van A</td>
+          <td>20</td>
+          <td>Ha noi</td>
+        </tr>
+        <tr>
+          <td>Nguyen van A</td>
+          <td>22</td>
+          <td>Ha noi</td>
+        </tr>
+     
+     
+      <tr>
+        <td>Nguyen van A</td>
+        <td>23</td>
+        <td>Ha noi</td>
+      </tr>
+    
+    </table>
+  </body>
+</html>

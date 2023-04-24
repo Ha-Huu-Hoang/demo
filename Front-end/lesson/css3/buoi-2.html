@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #cha {
+        position: relative;
+
+        width: auto;
+        height: 300px;
+        border-bottom: 2px solid black;
+      }
+      .con-2 {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        border-radius: 50%;
+        position:absolute;
+        top: 0;
+        left: 30%;
+        
+        animation: disappear 10s 0.1s ease-in-out infinite;
+      }
+      .con {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        border-radius: 50%;
+        animation: toReg 10s 0.1s ease-in-out infinite;
+        position: absolute;
+        z-index: 1;
+      }
+      @keyframes disappear{
+        
+      }
+      @keyframes toReg {
+        0% {
+          top: 0;
+          left: 5%;
+        }
+        15% {
+          top: 67%;
+          left: 10%;
+        }
+        20% {
+          top: 0;
+          left: 15%;
+        }
+        25% {
+          top: 67%;
+          left: 25%;
+        }
+        30% {
+          top: 0;
+          left: 30%;
+        }
+        35%{
+            top: 67%;
+          left: 35%;
+        }
+        40%{
+            top: 0;
+          left: 40%;
+        }
+        
+        45%{
+            top: 67%;
+          left: 45%;
+        }
+        50%{
+            top: 0;
+          left: 50%;
+        }
+        55%{
+            top: 67%;
+          left: 55%;
+        }
+        60%{
+            top: 0;
+          left: 60%;
+        }
+        65%{
+            top: 67%;
+          left: 65%;
+        }
+        70%{
+            top: 0;
+          left: 70%;
+        }
+        75%{
+            top: 67%;
+          left: 75%;
+        }
+        80%{
+            top: 0;
+          left: 80%;
+        }
+        85%{
+            top: 67%;
+          left: 85%;
+        }
+        90%{
+            top: 0;
+          left: 90%;
+        }
+        95%{
+            top: 67%;
+          left: 95%;
+        }
+        100%{
+            top: 0;
+          left: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cha">
+      <div class="con"></div>
+      <div class="con-2"></div>
+    </div>
+  </body>
+</html>

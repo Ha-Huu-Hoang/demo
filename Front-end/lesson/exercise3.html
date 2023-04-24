@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UL LI</title>
+  </head>
+  <body>
+    <style>
+      ol {
+        display: flex;
+      }
+      li {
+        list-style-type: none;
+      }
+    </style>
+    <ol>
+      <li>Facebook</li>
+      <li>Css</li>
+      <li>Js</li>
+      <li>NextJs</li>
+      <li>Typescrip</li>
+    </ol>
+    <form action="">
+      <input type="text" />
+      <input type="color" />
+      <input type="submit" />
+    </form>
+    <input type="url" />
+    <input type="week" />
+
+    <!-- <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"> -->
+    <form action="">
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Infomation user</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      0
+      <input type="range" id="a" name="a" />
+      100 +
+      <input type="number" id="b" name="b" value="10" />
+      =
+      <output name="x" for=""></output>
+      <br /><br />
+      <input type="submit" />
+    </form>
+
+    <!-- <label for="cars">Choose a car:</label>
+<select  id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select> -->
+<iframe src="./index.html" name="iframe_a" height="900px" width="900px" title="Iframe Example"></iframe>
+<p><a href="https://shopguitarcaugiay.com" target="iframe_a">Click vào đây để chuyển trang web</a></p>
+  </body>
+</html>
