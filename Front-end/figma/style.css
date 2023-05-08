@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+img{
+   max-width: 100%;
+}
+/* navbar-container */
+.container .navbar-container{
+    height: 28px;
+    margin: 46px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.navbar-container_list{
+    display: flex;
+    list-style: none;
+}
+h3.navbar-container_title{
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+ul.navbar-container_list li.navbar-container_item{
+    padding-left: 44px;
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+ul.navbar-container_list .nav-bar{
+    display: none;
+}
+ /* hero-container  */
+ .container .hero-container{
+    min-height: 450px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 99px;
+    justify-content: space-between;
+ }
+ .hero-container .hero-container_content h1,p{
+color: #272D38;
+font-family: 'Inter', sans-serif;
+ }
+ .hero-container_content h1{
+    font-size: 4rem;
+    max-width: 540px;
+ }
+ .hero-container .hero-container_content p{
+    font-weight: 400;
+    font-size: 1.125rem;
+    max-width: 515px;
+ }
+ .hero-container .hero-container_content{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+ }
+ .hero-container .hero-container_content button{
+    border: none;
+    padding: 10px 31px;
+    background: #8EADD5;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem; 
+    color:#FFFFFF ;
+   max-width: 167px;
+   cursor: pointer;
+ }
+ /* companies-container  */
+ .companies-container {
+    margin: 189px auto 0;
+    text-align: center;
+    max-width: 915px; 
+ }
+ .companies-container p.companies-container-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #667085;
+ }
+ .companies-container ul.companies-container-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 16px;
+    align-items: center;
+    background: #F6F6F6;
+    border-radius: 8px;
+    height: 86px;
+ }
+ ul.companies-container-list li.item img{
+        max-width: 100%;   
+ }
+ /* branding-container */
+ .branding-container {
+    display: flex;
+    margin-top: 136px;
+    justify-content: space-between;
+ }
+ .branding-container .branding-container_content{
+   display: flex;
+   flex-direction: column;
+   margin-left: 179px;
+   justify-content: center;
+  
+ }
+ .branding-container .branding-container_content h2,p,i{
+    color: #272D38;
+    font-family: 'Inter', sans-serif;
+ }
+ .branding-container .branding-container_content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: 435px;
+ }
+ .branding-container .branding-container_content p{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 380px;
+    margin-top: 26px;
+ }
+ .branding-container .branding-container_content i{
+    margin-top: 45px;
+ }
+ /* custom-container */
+ .custom-container{
+   display: flex;
+   margin-top:136px ;
+   justify-content: space-between;
+ }
+ .custom-container_content h2,p,i{
+   color: #272D38;
+   font-family: 'Inter', sans-serif;
+ }
+ .custom-container_content h2{
+   font-size: 3rem;
+    font-weight: 700;
+    max-width: 435px;
+ }
+ .custom-container_content p{
+   font-weight: 400;
+   font-size: 1rem;
+   max-width: 380px;
+   margin-top: 26px;
+}
+.custom-container_content i{
+   margin-top: 45px;
+}
+.custom-container_content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ /* testimonila-container */
+ .testimonila-container{
+   margin-top: 136px;
+ }
+ .testimonila-container .testimonila-container_title{
+   text-align: center;
+   color: #272D38;
+   font-family: 'Inter', sans-serif;
+ }
+ .testimonila-container .testimonila-container_title p{
+   font-weight: 400;
+   font-size: 1rem;
+ }
+ .testimonila-container .testimonila-container_title h2{
+   font-weight: 700;
+   font-size: 3rem;
+   max-width: 435.69px;
+   margin: auto;
+ }
+ ul.testimonila-container_list{
+   display: flex;
+   list-style: none;
+   margin-top: 38px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  
+ }
+ ul.testimonila-container_list li{
+
+  padding-left: 15px;
+  padding-right: 15px;
+   flex: 33.33%;
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ ul.testimonila-container_list li .item{
+   padding: 32px 32px;
+   background: #F6F6F6;
+   border-radius: 20px;
+ }
+ .item img{
+max-width: 100%;
+ }
+ .item p.list_name{
+   font-weight: 400;
+   font-size: 1.125rem;
+ }
+ .item p.list_title{
+   margin-top: 27px;
+   font-weight: 300;
+   font-size: 0.875rem;
+ }
